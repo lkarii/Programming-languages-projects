@@ -1,0 +1,8 @@
+project Symulation is
+
+   for Source_Dirs use ("src");
+   for Object_Dir use "obj";
+   for Main use ("producer.adb", "consumer.adb", "buffer.adb", "simulation.adb", "main.adb");
+
+end Symulation;
+
